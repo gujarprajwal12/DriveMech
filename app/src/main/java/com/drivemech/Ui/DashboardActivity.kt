@@ -14,11 +14,13 @@ import com.drivemech.Data.Service
 import com.drivemech.R
 import com.drivemech.Ui.Adapter.OverviewAdapter
 import com.drivemech.Ui.Adapter.ServiceAdapter
+import com.drivemech.databinding.ActivityDashboardBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class DashboardActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityDashboardBinding
     private lateinit var gridRecycler: RecyclerView
     private lateinit var serviceRecycler: RecyclerView
     private lateinit var bottomNav: BottomNavigationView
@@ -27,7 +29,8 @@ class DashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_dashboard)
+        binding = ActivityDashboardBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
 
         gridRecycler = findViewById(R.id.gridRecycler)
@@ -48,8 +51,16 @@ class DashboardActivity : AppCompatActivity() {
         }
 
         fab.setOnClickListener {
-            Toast.makeText(this, "FAB Clicked", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "In Progress..", Toast.LENGTH_SHORT).show()
         }
+
+     binding.txtweely.setOnClickListener {
+         Toast.makeText(this, "In Progress..", Toast.LENGTH_SHORT).show()
+     }
+
+     binding.txtviewall.setOnClickListener {
+         Toast.makeText(this, "In Progress..", Toast.LENGTH_SHORT).show()
+     }
 
 
     }

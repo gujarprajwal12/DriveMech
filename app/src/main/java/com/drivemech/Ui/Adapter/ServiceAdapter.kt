@@ -17,9 +17,8 @@ class ServiceAdapter(private val items: List<Service>) :
         val name = view.findViewById<TextView>(R.id.customerName)
         val vehicle = view.findViewById<TextView>(R.id.vehicleName)
         val serviceType = view.findViewById<TextView>(R.id.serviceType)
-        val dateTime = view.findViewById<TextView>(R.id.dateTime)
-        val accept = view.findViewById<Button>(R.id.acceptBtn)
-        val decline = view.findViewById<Button>(R.id.declineBtn)
+        val dateTime = view.findViewById<TextView>(R.id.serviceTime)
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
