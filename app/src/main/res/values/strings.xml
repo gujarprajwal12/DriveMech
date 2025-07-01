@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DriveMech</string>
+    <string name="mobile_email_id">Mobile / Email ID</string>
+    <string name="biometric">Biometric</string>
+    <string name="mpin">MPIN</string>
+    <string name="or">Or</string>
+    <string name="verify_with_otp">Verify with OTP</string>
+    <string name="enter_mobile_number_email">Enter Mobile Number / Email</string>
+    <string name="login">Login</string>
+    <string name="verify">Verify</string>
+    <string name="otp_sent_to_91_987xxxxx10">OTP sent to +91 987xxxxx10.</string>
+</resources>
