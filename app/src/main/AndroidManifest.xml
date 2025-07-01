@@ -13,6 +13,9 @@
         android:theme="@style/Theme.DriveMech"
         tools:targetApi="31">
         <activity
+            android:name=".Ui.DashboardActivity"
+            android:exported="false" />
+        <activity
             android:name=".Ui.HomeScreen"
             android:exported="false" />
         <activity

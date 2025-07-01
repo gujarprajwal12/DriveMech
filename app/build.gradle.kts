@@ -51,6 +51,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     // otp
-    implementation ("com.github.appsfeature:otp-view:1.0")
     implementation("io.github.chaosleung:pinview:1.4.4")
 }

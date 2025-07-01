@@ -9,4 +9,9 @@
     <string name="login">Login</string>
     <string name="verify">Verify</string>
     <string name="otp_sent_to_91_987xxxxx10">OTP sent to +91 987xxxxx10.</string>
+    <string name="welcome_john_wick_workshop">Welcome, John Wick Workshop</string>
+    <string name="new_service_5">New Service (5)</string>
+    <string name="_1_fast_customer_reach_and_service_expansion">1. Fast customer reach and service expansion.</string>
+    <string name="_2_free_service_slot_management_tools">2. Free service slot management tools.</string>
+    <string name="_3_grow_visibility_with_trusted_branding">3. Grow visibility with trusted branding.</string>
 </resources>

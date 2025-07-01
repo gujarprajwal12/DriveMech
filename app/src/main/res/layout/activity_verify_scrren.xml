@@ -53,19 +53,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
+                android:weightSum="1"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/txtmoblenumber"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:textSize="12sp"
                     android:text="@string/otp_sent_to_91_987xxxxx10"
                     android:hint=""
                     />
 
                 <Button
                     android:id="@+id/btnChange"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="Change"
                     android:textColor="@color/txtblue"
@@ -81,8 +85,8 @@
                 app:itemWidth="50dp"
                 app:itemHeight="50dp"
                 android:gravity="center"
-                android:layout_marginStart="50dp"
-                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+               android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:itemBackground="@color/white"
                 android:inputType="number"

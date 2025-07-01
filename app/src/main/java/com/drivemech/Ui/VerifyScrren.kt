@@ -65,6 +65,9 @@ class VerifyScrren : AppCompatActivity() {
         binding.btnVerifyOTP.setOnClickListener {
             isValidate()
             if (isValidate()) {
+                val intent = Intent(this, HomeScreen::class.java)
+                startActivity(intent)
+
                 SnackbarUtils.showSuccessSnackbar(binding.root, "Verify OTP")
             }
         }

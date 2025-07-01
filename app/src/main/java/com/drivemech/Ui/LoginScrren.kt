@@ -60,11 +60,11 @@ class LoginScrren : AppCompatActivity() {
 
 
         binding.btnMpin.setOnClickListener {
-            Toast.makeText(this, "Navigate to MPIN login", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "In Progress ..", Toast.LENGTH_SHORT).show()
         }
 
         binding.btnBiometric.setOnClickListener {
-            Toast.makeText(this, "Trigger biometric auth", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "In Progress ..", Toast.LENGTH_SHORT).show()
         }
     }
 

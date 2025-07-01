@@ -14,4 +14,10 @@
     <color name="success_color">#07CC89</color>
     <color name="failure_color">#FF0000</color>
     <color name="txtblue">#3D61AD</color>
+
+    <color name="orange">#FF6B2C</color>
+    <color name="green">#2ECC71</color>
+    <color name="red">#E74C3C</color>
+    <color name="blue">#3498DB</color>
+
 </resources>
